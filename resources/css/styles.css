@@ -1,0 +1,138 @@
+@font-face {
+	font-family: "Pacifico";
+	src: url("../fonts/Pacifico/Pacifico.ttf");
+}
+
+body{
+	font-family: Pacifico;
+	font-weight:normal;
+	font-style:normal;
+	background-color:#001830;
+	color: #d3a128;
+	padding: 20vmin;
+	text-align: center;
+	vertical-align: center;
+	font-size: 1.2em;
+}
+
+/* Buffers */
+	.bufferSuperior{
+		height: 20vmin;
+		width: 100vw;
+		background-color:#001830;
+		position:fixed;
+		top:0;
+		left:0;
+		z-index: 1;
+	}
+
+	.bufferInferior{
+		height: 20vmin;
+		width: 100vw;
+		background-color:#001830;
+		position:fixed;
+		bottom:0;
+		left:0;
+		z-index: 1;
+	}
+
+/* Borde*/
+	div.borde{
+		background-size: 100% 100%;
+		background-repeat: no-repeat;
+		width: 20vmin;
+		height: 20vmin;
+		position:fixed;
+		z-index: 2;
+	}
+
+	div.borde1{
+		background-image: url("../images/borde1.png");
+		top:2vmin;
+		left:2vmin;
+	}
+
+	div.borde2{
+		background-image: url("../images/borde2.png");
+		top:2vmin;
+		right:2vmin;
+	}
+
+	div.borde3{
+		background-image: url("../images/borde3.png");
+		bottom:2vmin;
+		right:2vmin;
+	}
+
+	div.borde4{
+		background-image: url("../images/borde4.png");
+		bottom:2vmin;
+		left:2vmin;
+	}
+
+/* Barra */
+	.barra{
+		background-color: #d3a128;
+		position:fixed;
+		z-index: 2;
+	}
+
+	.barraCortaHorizontal{
+		width: calc(100vw - 50vmin);
+		height: 0.75vmin;
+	}
+
+	.barraLargaHorizontal{
+		width: calc(100vw - 46vmin);
+		height: 0.75vmin;
+	}
+
+	.barraCortaVertical{
+		width: 0.75vmin;
+		height: calc(100vh - 48vmin);
+	}
+
+	.barraLargaVertical{
+		width: 0.75vmin;
+		height: calc(100vh - 44vmin);
+	}
+
+	.barra1{
+		top: 3vmin;
+		left: 24vmin;
+	}
+
+	.barra2{
+		top: 5.25vmin;
+		left:22vmin;
+	}
+
+	.barra3{
+		top:24vmin;
+		left: 3vmin;
+	}
+
+	.barra4{
+		top:22vmin;
+		left: 5.25vmin;
+	}
+
+	.barra5{
+		bottom: 3vmin;
+		left: 24vmin;
+	}
+
+	.barra6{
+		bottom: 5.25vmin;
+		left:22vmin;
+	}
+
+	.barra7{
+		top:24vmin;
+		right: 3vmin;
+	}
+
+	.barra8{
+		top:22vmin;
+		right: 5.25vmin;
+	}
